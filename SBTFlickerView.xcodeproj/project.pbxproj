@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A78F59AD15AC5D0900F6E886 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A78F59AC15AC5D0900F6E886 /* UIKit.framework */; };
+		A78F59AF15AC5D0900F6E886 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A78F59AE15AC5D0900F6E886 /* Foundation.framework */; };
+		A78F59B115AC5D0900F6E886 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A78F59B015AC5D0900F6E886 /* CoreGraphics.framework */; };
+		A78F59B715AC5D0900F6E886 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A78F59B515AC5D0900F6E886 /* InfoPlist.strings */; };
+		A78F59B915AC5D0900F6E886 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A78F59B815AC5D0900F6E886 /* main.m */; };
+		A78F59BD15AC5D0900F6E886 /* SBTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A78F59BC15AC5D0900F6E886 /* SBTAppDelegate.m */; };
+		A78F59C715AC5D3300F6E886 /* SBTFlickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A78F59C415AC5D3300F6E886 /* SBTFlickerView.m */; };
+		A78F59C815AC5D3300F6E886 /* SBTFlickerViewClip.m in Sources */ = {isa = PBXBuildFile; fileRef = A78F59C615AC5D3300F6E886 /* SBTFlickerViewClip.m */; };
+		A78F59CD15AC5F5300F6E886 /* SBTMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A78F59CB15AC5F5300F6E886 /* SBTMainViewController.m */; };
+		A78F59CE15AC5F5300F6E886 /* SBTMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A78F59CC15AC5F5300F6E886 /* SBTMainViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A78F59A815AC5D0900F6E886 /* SBTFlickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SBTFlickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A78F59AC15AC5D0900F6E886 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A78F59AE15AC5D0900F6E886 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A78F59B015AC5D0900F6E886 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A78F59B415AC5D0900F6E886 /* SBTFlickerView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SBTFlickerView-Info.plist"; sourceTree = "<group>"; };
+		A78F59B615AC5D0900F6E886 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A78F59B815AC5D0900F6E886 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A78F59BA15AC5D0900F6E886 /* SBTFlickerView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SBTFlickerView-Prefix.pch"; sourceTree = "<group>"; };
+		A78F59BB15AC5D0900F6E886 /* SBTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBTAppDelegate.h; sourceTree = "<group>"; };
+		A78F59BC15AC5D0900F6E886 /* SBTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBTAppDelegate.m; sourceTree = "<group>"; };
+		A78F59C315AC5D3300F6E886 /* SBTFlickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBTFlickerView.h; sourceTree = "<group>"; };
+		A78F59C415AC5D3300F6E886 /* SBTFlickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBTFlickerView.m; sourceTree = "<group>"; };
+		A78F59C515AC5D3300F6E886 /* SBTFlickerViewClip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBTFlickerViewClip.h; sourceTree = "<group>"; };
+		A78F59C615AC5D3300F6E886 /* SBTFlickerViewClip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBTFlickerViewClip.m; sourceTree = "<group>"; };
+		A78F59CA15AC5F5300F6E886 /* SBTMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBTMainViewController.h; sourceTree = "<group>"; };
+		A78F59CB15AC5F5300F6E886 /* SBTMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBTMainViewController.m; sourceTree = "<group>"; };
+		A78F59CC15AC5F5300F6E886 /* SBTMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SBTMainViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A78F59A515AC5D0900F6E886 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A78F59AD15AC5D0900F6E886 /* UIKit.framework in Frameworks */,
+				A78F59AF15AC5D0900F6E886 /* Foundation.framework in Frameworks */,
+				A78F59B115AC5D0900F6E886 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A78F599D15AC5D0800F6E886 = {
+			isa = PBXGroup;
+			children = (
+				A78F59B215AC5D0900F6E886 /* SBTFlickerView */,
+				A78F59AB15AC5D0900F6E886 /* Frameworks */,
+				A78F59A915AC5D0900F6E886 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A78F59A915AC5D0900F6E886 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A78F59A815AC5D0900F6E886 /* SBTFlickerView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A78F59AB15AC5D0900F6E886 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A78F59AC15AC5D0900F6E886 /* UIKit.framework */,
+				A78F59AE15AC5D0900F6E886 /* Foundation.framework */,
+				A78F59B015AC5D0900F6E886 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A78F59B215AC5D0900F6E886 /* SBTFlickerView */ = {
+			isa = PBXGroup;
+			children = (
+				A78F59C915AC5F1300F6E886 /* SBTFlickerView */,
+				A78F59BB15AC5D0900F6E886 /* SBTAppDelegate.h */,
+				A78F59BC15AC5D0900F6E886 /* SBTAppDelegate.m */,
+				A78F59B315AC5D0900F6E886 /* Supporting Files */,
+				A78F59CA15AC5F5300F6E886 /* SBTMainViewController.h */,
+				A78F59CB15AC5F5300F6E886 /* SBTMainViewController.m */,
+				A78F59CC15AC5F5300F6E886 /* SBTMainViewController.xib */,
+			);
+			path = SBTFlickerView;
+			sourceTree = "<group>";
+		};
+		A78F59B315AC5D0900F6E886 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A78F59B415AC5D0900F6E886 /* SBTFlickerView-Info.plist */,
+				A78F59B515AC5D0900F6E886 /* InfoPlist.strings */,
+				A78F59B815AC5D0900F6E886 /* main.m */,
+				A78F59BA15AC5D0900F6E886 /* SBTFlickerView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A78F59C915AC5F1300F6E886 /* SBTFlickerView */ = {
+			isa = PBXGroup;
+			children = (
+				A78F59C315AC5D3300F6E886 /* SBTFlickerView.h */,
+				A78F59C415AC5D3300F6E886 /* SBTFlickerView.m */,
+				A78F59C515AC5D3300F6E886 /* SBTFlickerViewClip.h */,
+				A78F59C615AC5D3300F6E886 /* SBTFlickerViewClip.m */,
+			);
+			name = SBTFlickerView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A78F59A715AC5D0900F6E886 /* SBTFlickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A78F59C015AC5D0900F6E886 /* Build configuration list for PBXNativeTarget "SBTFlickerView" */;
+			buildPhases = (
+				A78F59A415AC5D0900F6E886 /* Sources */,
+				A78F59A515AC5D0900F6E886 /* Frameworks */,
+				A78F59A615AC5D0900F6E886 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SBTFlickerView;
+			productName = SBTFlickerView;
+			productReference = A78F59A815AC5D0900F6E886 /* SBTFlickerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A78F599F15AC5D0800F6E886 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SBT;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Fnac SA";
+			};
+			buildConfigurationList = A78F59A215AC5D0800F6E886 /* Build configuration list for PBXProject "SBTFlickerView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A78F599D15AC5D0800F6E886;
+			productRefGroup = A78F59A915AC5D0900F6E886 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A78F59A715AC5D0900F6E886 /* SBTFlickerView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A78F59A615AC5D0900F6E886 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A78F59B715AC5D0900F6E886 /* InfoPlist.strings in Resources */,
+				A78F59CE15AC5F5300F6E886 /* SBTMainViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A78F59A415AC5D0900F6E886 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A78F59B915AC5D0900F6E886 /* main.m in Sources */,
+				A78F59BD15AC5D0900F6E886 /* SBTAppDelegate.m in Sources */,
+				A78F59C715AC5D3300F6E886 /* SBTFlickerView.m in Sources */,
+				A78F59C815AC5D3300F6E886 /* SBTFlickerViewClip.m in Sources */,
+				A78F59CD15AC5F5300F6E886 /* SBTMainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A78F59B515AC5D0900F6E886 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A78F59B615AC5D0900F6E886 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A78F59BE15AC5D0900F6E886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A78F59BF15AC5D0900F6E886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A78F59C115AC5D0900F6E886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SBTFlickerView/SBTFlickerView-Prefix.pch";
+				INFOPLIST_FILE = "SBTFlickerView/SBTFlickerView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A78F59C215AC5D0900F6E886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SBTFlickerView/SBTFlickerView-Prefix.pch";
+				INFOPLIST_FILE = "SBTFlickerView/SBTFlickerView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A78F59A215AC5D0800F6E886 /* Build configuration list for PBXProject "SBTFlickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A78F59BE15AC5D0900F6E886 /* Debug */,
+				A78F59BF15AC5D0900F6E886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A78F59C015AC5D0900F6E886 /* Build configuration list for PBXNativeTarget "SBTFlickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A78F59C115AC5D0900F6E886 /* Debug */,
+				A78F59C215AC5D0900F6E886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A78F599F15AC5D0800F6E886 /* Project object */;
+}
